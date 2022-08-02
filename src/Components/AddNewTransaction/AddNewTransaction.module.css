@@ -1,0 +1,32 @@
+.btn{
+    background-color: #B13CD5;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
+}
+.container div {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container div input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container div input:focus{
+    outline: none;
+}
